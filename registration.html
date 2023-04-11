@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form class="form">
+            <nav class="navbar">
+                <div class="navbar-nav">
+                    <img src="images/logotype.svg" alt="" class="navbar-logo">
+                    <div class="navbar-LogoText">Gundam.com</div>
+                </div>
+            </nav>
+            <div class="form-greeting">
+                <div class="form-title">Welcome</div>
+                <div class="form-subtitle">Please enter your details</div>
+            </div>
+            <div class="form-menu">
+                <div class="form-email-div">
+                    <div class="form-email-title">Email</div>
+                    <input class="form-email" type="text" placeholder="Enter your email" required>
+                </div>
+                <div class="form-password-div">
+                    <div class="form-password-title">Password</div>
+                    <div class="form-password-df">
+                        <input type="password" class="form-password"  placeholder="Enter your password" required>
+                        <button class="form-eyeon" type="button">
+                            <img src="images/visibility on.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="form-recovery">
+                <div class="form-recovery-df">
+                    <input class="form-member" id="form-remember" type="checkbox"><label class="form-label" for="form-remember">Remember password</label>
+                </div>
+                <a href="#" class="form-forgotPassword">Forgot password</a>
+            </div>
+            <button class="form-btn">Login</button>
+            <div class="form-Register">
+                You don't have an account? <a href="#" class="form-SignIn">Sign in</a>
+            </div>
+        </form>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>

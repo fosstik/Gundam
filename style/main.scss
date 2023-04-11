@@ -1,0 +1,125 @@
+@import url(normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.container {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.nav {
+    box-shadow: 0 0.05em 1px rgb(194, 194, 194);
+    &__NavBar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 24px 0 24px 0;
+    }
+    &__menu {
+        display: flex;
+    }
+    &__UI {
+        display: flex;
+    }
+    &__profile {
+        margin: 0 32px 0 0;
+    }
+    &__list {
+        padding: 0 48px 0 0;
+        font-family: inter;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        &>a {
+            color: #000000;
+            &:hover {
+                color: #4434C9;
+                transition: 250ms;
+            }
+        }
+    }
+}
+
+.header {
+    &__JapanText {
+        font-size: 24px;
+        font-family: inter;
+        font-weight: 600;
+        color: #4434C9;
+        margin: 100px 0 0 0;
+    }
+    &__title {
+        font-size: 128px;
+        font-family: bebas neue;
+        font-weight: 600;
+        padding: 24px 0 25px 0 ;
+    }
+    &__SubTitle {
+        width: 552px;
+        height: 128px;
+        font-size: 18px;
+        font-family: inter;
+        font-weight: 400;
+        color: #757575;
+        line-height: 30px;
+    }
+    &__button {
+        padding: 23px 12px 20px 32px;
+        background-color: #4434C9;
+        display: inline-block;
+        margin: 48px 0 0 0;
+        align-items: center;
+        &>a {
+            color: #ffffff;
+            font-family: inter;
+            font-weight: 500;
+            font-size: 18px;
+            display: flex;
+            text-align: center;
+            padding: 0 10px 0 0;
+        }
+    }
+    &__butt {
+        padding: 0 10px 0 0 ;
+    }
+    &__df {
+        display: flex;
+        justify-content: center;
+    }
+    &__BlockOne {
+        padding: 0 200px 0 0;
+    }
+    &__RightSite {
+        &>img {
+            width: 825px;
+        }
+    }
+    &__UnderLine {
+        &>img {
+            width: 100%;
+            margin: 0px 0 0 0;
+        }
+    }
+}
+
+.SectionOne {
+    &__title {
+        font-size: 50px;
+        font-family: bebas neue;
+        font-weight: 400;
+    }
+    &__SubTitle {
+        font-size: 16px;
+        font-family: inter;
+        font-weight: 400;
+        line-height: 32.4px;
+        color: #757575;
+        width: 542px;
+    }
+    &__jcsb {
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 0 100px 0;
+    }
+}

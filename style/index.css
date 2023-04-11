@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600&display=swap');
+
+
+
+body {
+    background: url(/images/signbg.png)0 0 no-repeat;
+}
+
+.form {
+    width: 450px;
+    height: 640px;
+    background-color: rgb(255, 255, 255);
+    border-radius:23px;
+    margin: 100px auto 0 auto;
+    box-shadow: 1px 1px 5px #838383;
+}
+
+.navbar-logo {
+    font-size: 20px;
+    padding: 0 10px 0 0;
+}
+
+.navbar-LogoText {
+    font-family: 'Jura', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navbar-nav {
+    padding: 20px 20px 0 20px;
+    display: flex;
+}
+
+.form-greeting {
+    padding:50px 1px 40px 113px ;
+    width: 200px;
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    font-weight: 500;
+}
+
+.form-title {
+    padding: 0 0 20px 0;
+    font-size: 24px;
+}
+
+.form-email-div {
+    padding: 0 0 40px 55px;
+    
+}
+
+.form-password-div {
+    padding: 0 0 0 55px;
+}
+
+.form-email {
+    font-family: 'Jura', sans-serif;
+    font-weight: 400;
+    height: 50px;
+    width: 325px;
+    margin: 10px 0 0 0;
+    padding: 0 0 0 7px;
+    border-radius: 16px;
+    border: 1px solid rgb(95, 95, 95);
+    font-size: 18px;
+}
+
+.form-password {
+    font-family: 'Jura', sans-serif;
+    font-weight: 400;
+    height: 50px;
+    margin: 10px 0 0 0;
+    width: 325px;
+    padding: 0 0 0 7px;
+    border-radius: 16px;
+    z-index: 1;
+    border: 1px solid rgb(95, 95, 95);
+    position: relative;
+    font-size: 18px;
+}
+
+.form-remeber {
+    padding: 0 0 0 10px;
+    font-family: 'Jura', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.form-email-div {
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.form-password-div {
+    font-family: 'Jura', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.form-recovery {
+    display: flex;
+    margin: 35px 0 0 35px;
+}
+
+.form-forgotPassword {
+    text-decoration: none;
+    font-family: 'Jura', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0 0 0 25px;
+    color: black;
+}
+
+.form-btn {
+    margin: 30px 1px 1px 40px;
+    background: none;
+    border: none;
+    border-radius: 25px;
+    background-color:#454364;
+    padding:23px 165px ;
+    color: #FFFFFF;
+    font-family: 'Jura', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-recovery-df {
+    display: flex;
+}
+
+.form-remember-div {
+    text-decoration: none;
+    font-family: 'Jura', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 0 0 0 3px;
+}
+
+.form-Register {
+    font-family: 'Jura', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.form-SignIn {
+    text-decoration: none;
+    font-family: 'Jura', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    margin: 1px 1px 1px 1px;
+}
+
+.form-eyeon {
+    background: none;
+    border: none;
+    z-index: 2;
+    cursor:pointer;
+    margin: 1px 1px 1px 1px;
+    position: absolute;
+    top: 50%;
+    right:800px;
+}
+
+.form-password-df {
+    display: flex;
+}
+
+.form-label {
+    padding: 0 0 0 2px;
+    font-family: 'Jura', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    user-select: none;
+}
+
+.form-background {
+    width: 500px;
+    height: 500px;
+}
